@@ -1,0 +1,239 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end css reset */
+
+/* nav */
+div.nav-bar {
+    background-color: #ffffff;
+    display: fixed;
+    height: 36px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    padding: 10px 15px 6px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+div.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.nav.left { 
+    display: flex;
+    /* background-color: brown; */
+    left: 10px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 5%;
+    border: none;
+}
+
+div.nav.center {
+    margin: 0 auto;
+}
+
+div.nav.right {
+    display: flex;
+    width: 190px;
+    align-items: center;
+    text-decoration: underline;
+    justify-content: space-between;
+}
+
+.login {
+    background: #121212;
+    margin: 1px 0px 0px;
+    padding: 9px 13px 7px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+/* header */
+header {
+    margin-top: 3.75em;
+}
+
+.title-container {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+#title {
+    text-align: left;
+    font: 2.3em 'Domine', serif;
+    font-style: italic;
+    font-weight: 1000px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.head-image {
+    width: 900px;
+    margin: 0 auto; 
+    color: #666666;
+}
+
+#image-info {
+    margin: 10px 20px 0px 0px;
+    line-height: 20px;
+}
+
+#photographer {
+    font-size: 0.8em;
+    color: #999999;
+}
+
+.author {
+    width: 600px;
+    height: 70px;
+    margin: 25px auto;
+}
+
+#name {
+    margin-bottom: 25px;
+}
+
+.date {
+ display: flex;
+ justify-content: space-between;
+}
+
+.share {
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.widget {
+    width: 30px;
+    height: 30px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.widget:hover {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.widget-img {
+    position: relative;
+    margin-top: 5px;
+}
+
+.label {
+    display: inline;
+}
+
+/* contents */
+.contents {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8rem;
+}
+
+.s-title {
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    width: 900px;
+    margin: 50px auto;
+
+}
+
+footer::before {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: "";
+    display: block;
+    height: 1px;
+}
+
+#footer-logo {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+footer ul {
+    display: block;
+}
+
+li.footer-nav {
+    border-top: 1px solid #999999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+#copyright {
+    border-top: 1px solid #999999;
+    padding: 20px;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
