@@ -48,7 +48,10 @@ table {
 /* nav */
 div.nav-bar {
     background-color: #ffffff;
-    display: fixed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     height: 36px;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 14px;
@@ -85,6 +88,7 @@ div.nav.right {
     align-items: center;
     text-decoration: underline;
     justify-content: space-between;
+    margin-right: 30px;
 }
 
 .login {
@@ -112,6 +116,7 @@ header {
     font-style: italic;
     font-weight: 1000px;
     line-height: 50px;
+    padding-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -197,7 +202,7 @@ ul {
 
 /* footer */
 footer {
-    width: 900px;
+    width: 80%;
     margin: 50px auto;
 
 }
